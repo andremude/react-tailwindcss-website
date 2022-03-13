@@ -20,9 +20,11 @@ const menu = () => {
     <div className="h-screen flex justify-center items-center bg-lime-300">
       <h1 className="text-9xl uppercase font-black">Menu</h1>
     </div>
-    <div className='menu-cards-container flex justify-around flex-wrap'>
+
+    {/* <div className='menu-cards-container flex justify-around flex-wrap'> */}
+    <div className='menu-cards-container grid md:grid-cols-3 gap-3 sm:grid-cols-1 mb-10'>
       <div className='menu-card'>
-        <img src={ImageOne} alt="" className="h-full rounded mb-10 shadow object-cover" />
+        <img src={ImageOne} alt="" className="h-full rounded mb-2 shadow object-cover" />
         <div className="card-text center-content">
           <h2 className='text-2xl mb-2'>Avocado Toast</h2>
             <p className="mb-2">Fresh and nutritious.
@@ -35,7 +37,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageTwo} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageTwo} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Tomato Soup</h2>
               <p className="mb-2">Smooth and creamy.
@@ -48,7 +50,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-        <img src={ImageThree} alt="" className="h-full rounded mb-10 shadow object-cover" />
+        <img src={ImageThree} alt="" className="h-full rounded mb-2 shadow object-cover" />
         <div className="card-text center-content">
           <h2 className='text-2xl mb-2'>Acai Bowl</h2>
             <p className="mb-2">Delicious fruity meal.
@@ -61,9 +63,9 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-        <img src={ImageFour} alt="" className="h-full rounded mb-10 shadow object-cover" />
+        <img src={ImageFour} alt="" className="h-full rounded mb-2 shadow object-cover" />
         <div className="card-text center-content">
-          <h2 className='text-2xl mb-2'>Eggplant and Tomato Pizza</h2>
+          <h2 className='text-2xl mb-2'>Eggplant Pizza</h2>
           <p className="mb-2">Crispy and delicious.
           </p>
           <span>
@@ -74,10 +76,10 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageFive} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageFive} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Chicken Burger</h2>
-              <p className="mb-2">The tastiest and juiciest chicken burger.
+              <p className="mb-2">The tastiest chicken burger.
               </p>
               <span>
                 $16
@@ -87,7 +89,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageSix} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageSix} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Palabok</h2>
               <p className="mb-2">Traditional taste.
@@ -100,7 +102,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageSeven} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageSeven} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Chicken Wrap</h2>
               <p className="mb-2">Crispy chicken.
@@ -113,7 +115,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageEight} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageEight} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Mediterranean Salad</h2>
               <p className="mb-2">Exotic and delicious.
@@ -126,7 +128,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageNine} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageNine} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Salmon Toast</h2>
               <p className="mb-2">Finest ingredients.
@@ -139,7 +141,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageTen} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageTen} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Salmon Bowl</h2>
               <p className="mb-2">Delicious grilled salmon.
@@ -152,7 +154,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageEleven} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageEleven} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Buddha Bowl</h2>
               <p className="mb-2">Mixture in a bowl.
@@ -165,7 +167,7 @@ const menu = () => {
       </div>
 
       <div className='menu-card'>
-            <img src={ImageTwelve} alt="" className="h-full rounded mb-10 shadow object-cover" />
+            <img src={ImageTwelve} alt="" className="h-full rounded mb-2 shadow object-cover" />
             <div className="card-text center-content">
               <h2 className='text-2xl mb-2'>Avocado and Egg Toast</h2>
               <p className="mb-2">Delicious ingredients.
